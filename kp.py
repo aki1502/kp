@@ -5,7 +5,6 @@ import tkinter as tk
 from tkinter import ttk
 
 
-# 50戦した結果
 
 class MainFrame(ttk.Frame):
     def __init__(self, master=None):
