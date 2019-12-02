@@ -81,6 +81,7 @@ class MainFrame(ttk.Frame):
 
     def increment(self):
         self.games += 1
+        self.bouts.config(text=self.games)
         for e in self.entrys:
             k = e.get()
             if k:
